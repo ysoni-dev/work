@@ -1,0 +1,64 @@
+{
+    "navbar":{
+        "topContent":{
+                "logos":"https://phd.digitalindiacorporation.in/assets/india%20flag.svg",
+                "gov":"Government of India",
+                "govalt":"gov of india",
+                "links":[
+                    {
+                        "data":"Skip to Main Content",
+                        "link":"#"
+                    },
+                    {
+                        "data":"A+",
+                        "link":"#"
+                    },
+                    {
+                        "data":"A",
+                        "link":"#"
+                    },
+                    {
+                        "data":"A-",
+                        "link":"#"
+                    }
+                ],
+                "label":"Language",
+                "languages":["English"]
+            },
+        "logos":[
+            {
+                "img":"https://phd.digitalindiacorporation.in/assets/ministry-india-logo.svg",
+                "link":"#",
+                "alt":"digital-india-logo"
+            },
+            {
+                "img":"https://phd.digitalindiacorporation.in/assets/phd-scheme-logo.svg",
+                "link":"#",
+                "alt":"digital-india-logo"
+            },
+            {
+                "img":"https://phd.digitalindiacorporation.in/assets/logo.svg",
+                "link":"#",
+                "alt":"digital-india-logo"
+            }
+        ],
+        "navlinks":[
+            {
+                "data":"About",
+                "link":"#"
+            },
+            {
+                "data":"Eligibility Criteria",
+                "link":"#"
+            },
+            {
+                "data":"Achievements",
+                "link":"#"
+            },
+            {
+                "data":"Contact Us",
+                "link":"#"
+            }
+        ]
+    }
+}

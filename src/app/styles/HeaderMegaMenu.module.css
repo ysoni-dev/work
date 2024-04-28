@@ -1,8 +1,28 @@
+.headerContainerTopContent{
+  background: #3f405c;
+  padding: 10px;
+}
+.headerTopContent{
+  height: 30px;
+  color: white;
+}
 .header {
     height: rem(60px);
     padding-left: var(--mantine-spacing-md);
     padding-right: var(--mantine-spacing-md);
-    border-bottom: rem(1px) solid light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
+  }
+  .headerContainer{
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0 3px 6px #00000029;
+    opacity: 1;
+    padding: 10px;
+    z-index: 2;
+  }
+
+  .govText{
+    color: white;
+    font-size: 12px !important;
+    font-weight: 500;
   }
   
   .link {

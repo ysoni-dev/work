@@ -3,6 +3,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import '@mantine/core/styles.css';
 import Layout from "./components/Layout";
 import { createTheme, MantineProvider } from '@mantine/core';
 
@@ -62,8 +63,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <MantineProvider theme={theme}>
-          <Layout/>
-          {children} 
+        <Layout>{children}</Layout>
         </MantineProvider>
       </body>
     </html>
